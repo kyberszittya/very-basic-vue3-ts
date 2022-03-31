@@ -34,7 +34,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Output management'
+            title: 'Very example',
+            template: 'src/views/index.html'
         }),
         new VueLoaderPlugin()
     ],    
